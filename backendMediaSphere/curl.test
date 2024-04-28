@@ -6,3 +6,11 @@ curl -X POST \
   "description": "Beispiel-Beschreibung",
   "type": "Beispiel-Typ"
 }'
+
+curl -X PUT -H "Content-Type: application/json" -d '{"title":"Neuer Titel","description":"Neue Beschreibung","type":"Neuer Typ"}' http://localhost:8080/media/1
+
+curl -X DELETE http://localhost:8080/media/{id}
+
+curl http://localhost:8080/media    
+
+
