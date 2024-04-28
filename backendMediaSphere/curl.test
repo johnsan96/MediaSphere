@@ -1,0 +1,8 @@
+curl -X POST \
+  http://localhost:8080/media \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "title": "Dark Knight",
+  "description": "Beispiel-Beschreibung",
+  "type": "Beispiel-Typ"
+}'
